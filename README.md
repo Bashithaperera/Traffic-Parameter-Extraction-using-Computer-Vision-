@@ -14,13 +14,36 @@ Conventional traffic light systems rely on fixed timing, which often fails to ad
 
 ---
 
-## 🧠 Key Features
+## 🧠 Key Operations
 
 - 🚗 Real-time vehicle detection and tracking using YOLOv8 + ByteTrack
 - ⏱️ Vehicle stoppage detection and delay time calculation
 - 🎥 Visual output with bounding boxes and delay information
 - 📊 Exportable logs for traffic analysis or as input to adaptively control traffic lights 
 
+---
+
+### Tracking Vehicle Motion Status and Stopped Delay
+
+![image](https://github.com/user-attachments/assets/1b2bdf88-2df2-4138-a73f-742847578a67)
+
+### Vehicle Counting Inside the Detection 
+
+![image](https://github.com/user-attachments/assets/db4d4891-3088-4797-876f-a34242631781)
+
+---
+
+## 🖥️ Inference Testing
+
+The inference script loads the trained model and processes a video feed frame-by-frame.
+
+- Python 3.10 environment created and activated
+- All required dependencies installed via:
+        pip install -r requirements.txt
+- Open the inference.ipynb in the pre-requisites installed environment
+- Define the location of the sample video, trained model and path to save the output video.
+- Back test few times to adjust the polygon detection zone as required.
+  
 ---
 
 ## ✅ Results
