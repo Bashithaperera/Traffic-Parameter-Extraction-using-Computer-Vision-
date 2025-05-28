@@ -23,13 +23,10 @@ Conventional traffic light systems rely on fixed timing, which often fails to ad
 
 ---
 
-## 🛠️ Dependencies
+## ✅ Results
 
-The core dependencies for inference are listed in `requirements.txt`:
+Below is a single frame of a inference tested traffic footage. The vehicle count is visualized iwhtin the detection zone while the individual vehicle stopped delay times on the right side along with the assigned unique tracking ids of the corresponding vehicle.
 
-```txt
-supervision==0.25.1
-ultralytics==8.3.11
-opencv-python==4.10.0.84
-numpy==1.23.2
-shapely==2.0.6
+![11](https://github.com/user-attachments/assets/75ef9fa9-2318-43cf-b393-12b4d215053f)
+
+
